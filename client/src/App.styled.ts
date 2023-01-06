@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 interface StyledProps {
   color: string;
@@ -34,5 +34,9 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  grid-auto-flow:dense
+  grid-auto-flow: dense;
+`;
+
+export const Row = styled.div`
+  display: flex;
 `;

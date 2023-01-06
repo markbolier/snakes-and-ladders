@@ -37,6 +37,11 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@humanoids/eslint-config": "^0.0.14",
+    "@humanoids/prettier-config": "^0.0.4",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "^8.31.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1"
   }
 }
